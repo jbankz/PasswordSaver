@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bankzworld.com.MainActivity">
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="Update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_saved"
+        android:orderInCategory="200"
+        android:title="saved"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/saved"/>
+</menu>
